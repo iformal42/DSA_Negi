@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 class Queue{
+  public:
     int *q;
     int front,rear;
     int size;
@@ -15,6 +16,10 @@ class Queue{
   bool empty()
   {
     return size == 0;
+  }
+  int size()
+  {
+    return size;
   }
 };
 
