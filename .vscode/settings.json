@@ -4,5 +4,6 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "new": "cpp"
-    }
+    },
+    "accessibility.signalOptions.volume": 0
 }
