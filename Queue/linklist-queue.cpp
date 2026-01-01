@@ -17,7 +17,7 @@ class Queue
 public:
     Node *front, *rear;
     int size;
-    Queue(int n)
+    Queue()
     {
         front = rear = nullptr;
         size = 0;
@@ -90,7 +90,7 @@ public:
 };
 int main()
 {
-    Queue q(4);
+    Queue q;
 
     q.push(5);
     q.push(2);
